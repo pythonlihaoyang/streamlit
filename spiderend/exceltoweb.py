@@ -7,7 +7,7 @@ import streamlit as st
 
 plt.rcParams['font.sans-serif']=['SimHei']#解决乱码
 
-df=pd.read_csv('datas.csv')#总表
+df=pd.read_csv('./datas.csv')#总表
 
 
 def pie():#画饼图
