@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 
-plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
-plt.rcParams['axes.unicode_minus'] = False #用来正常显示负号
+plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
 
 df=pd.read_csv('datas.csv')#总表
 
