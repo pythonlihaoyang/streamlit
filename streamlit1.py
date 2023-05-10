@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
-
+matplotlib.font_manager._rebuild()
 
 #plt.rcParams['font.sans-serif']=['SimHei']#解决乱码
 
