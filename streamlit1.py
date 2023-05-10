@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-import matplotlib.font_manager as fm
+import matplotlib.font_manager as font_manager
 
-# 指定字体
-font_path = 'msyhbd.ttc'  # 这里也可以填其他字体的绝对路径，只填名称表示本程序与该字体在同一级目录下 
-font_prop = fm.FontProperties(fname=font_path, size=12)
+fontpath = 'simhei.ttf'
+prop = font_manager.FontProperties(fname=fontpath)
+print(prop.get_name())
 
 df=pd.read_csv('datas.csv')#总表
 
