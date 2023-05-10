@@ -2,11 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-from matplotlib import font_manager as fm
 
 
-fpath = os.path.join(os.getcwd(), "streamlit_app/Noto_Sans_JP/NotoSansJP-Regular.otf")
-prop = fm.FontProperties(fname=fpath)
+
 
 
 df=pd.read_csv('datas.csv')#总表
