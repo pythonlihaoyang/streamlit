@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-font1 = matplotlib.font_manager.FontProperties(fname="simhei.ttf")
+#font1 = matplotlib.font_manager.FontProperties(fname="simhei.ttf")
 
 df=pd.read_csv('datas.csv')#总表
 
