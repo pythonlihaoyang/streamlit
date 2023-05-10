@@ -7,10 +7,6 @@ from matplotlib import font_manager as fm
 
 fpath = os.path.join(os.getcwd(), "streamlit_app/Noto_Sans_JP/NotoSansJP-Regular.otf")
 prop = fm.FontProperties(fname=fpath)
-font_dir = ['streamlit_app/Noto_Sans_JP']
-fm.fontManager.addfont(font)
-rcParams['font.family'] = 'Noto Sans JP'
-
 
 
 df=pd.read_csv('datas.csv')#总表
