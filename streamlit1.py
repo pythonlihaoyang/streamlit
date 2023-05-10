@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
-plt.rcParams['font.family'] = 'serif'
-plt.rcParams['font.serif'] = ['Lin Libertine']
+
 
 df=pd.read_csv('datas.csv')#总表
 
