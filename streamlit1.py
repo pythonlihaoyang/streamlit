@@ -2,8 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-import os
-os.popen('python -m pip install --upgrade pip')
+import matplotlib.font_manager as fm
+
+# 指定字体
+font_path = 'msyhbd.ttc'  # 这里也可以填其他字体的绝对路径，只填名称表示本程序与该字体在同一级目录下 
+font_prop = fm.FontProperties(fname=font_path, size=12)
 
 df=pd.read_csv('datas.csv')#总表
 
