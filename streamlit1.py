@@ -2,11 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-import matplotlib.font_manager as font_manager
 
-fontpath = 'simhei.ttf'
-prop = font_manager.FontProperties(fname=fontpath)
-print(prop.get_name())
+
+plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
+plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 
 df=pd.read_csv('datas.csv')#总表
 
