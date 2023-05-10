@@ -5,7 +5,7 @@ import streamlit as st
 from matplotlib import font_manager as fm
 
 
-fpath = os.path.join(os.getcwd(), “streamlit_app/Noto_Sans_JP/NotoSansJP-Regular.otf”)
+fpath = os.path.join(os.getcwd(), "streamlit_app/Noto_Sans_JP/NotoSansJP-Regular.otf")
 prop = fm.FontProperties(fname=fpath)
 font_dir = ['streamlit_app/Noto_Sans_JP']
 fm.fontManager.addfont(font)
