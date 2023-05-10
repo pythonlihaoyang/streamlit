@@ -2,11 +2,21 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
+from matplotlib import font_manager as fm
 
 
-plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
+fpath = os.path.join(os.getcwd(), “streamlit_app/Noto_Sans_JP/NotoSansJP-Regular.otf”)
+prop = fm.FontProperties(fname=fpath)
+font_dir = ['streamlit_app/Noto_Sans_JP']
+fm.fontManager.addfont(font)
+rcParams['font.family'] = 'Noto Sans JP'
+
+
 
 df=pd.read_csv('datas.csv')#总表
+
+
+
 
 
 def pie():#画饼图
