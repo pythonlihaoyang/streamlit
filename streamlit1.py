@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
-
+import os
+os.popen('python -m pip install --upgrade pip')
 
 df=pd.read_csv('datas.csv')#总表
 
